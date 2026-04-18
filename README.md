@@ -1,3 +1,5 @@
+[简体中文](https://github.com/LeonJian/Himawari-Visualizer/blob/main/README_CN.md)
+[繁体中文(未完成)](https://github.com/LeonJian/Himawari-Visualizer/blob/main/README_CN.md)
 # HSD Data Process
 
 This is an open-source project for processing HSD format data from Himawari satellites. The project uses Rust to implement an efficient data processing pipeline, including data correction, Rayleigh atmospheric correction, Lanczos scaling, and output in TIFF image format. Currently, this project is very unstable, use with caution.
