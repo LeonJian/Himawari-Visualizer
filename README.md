@@ -53,7 +53,7 @@ hsd_data_process/
 ## Installation
 1. Clone the project:
    ```bash
-   git clone 
+   git clone https://github.com/LeonJian/Himawari-Visualizer.git
    cd hsd_data_process
    ```
 
