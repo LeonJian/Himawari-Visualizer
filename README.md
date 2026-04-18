@@ -1,5 +1,5 @@
 # HSD Data Process
-这是一个开源项目，用于处理Himawari卫星的HSD格式数据。该项目使用Rust语言实现高效的数据处理管道，包括数据校正、瑞利大气校正、Lanczos缩放，并输出为TIFF图像格式。
+这是一个开源项目，用于处理Himawari卫星的HSD格式数据。该项目使用Rust语言实现高效的数据处理管道，包括数据校正、瑞利大气校正、Lanczos缩放，并输出为TIFF图像格式。目前此项目非常不稳定，慎用。
 
 ## 项目结构
 ```
@@ -44,7 +44,7 @@ hsd_data_process/
 - 系统依赖：需要支持bzip2静态链接
 
 ### Python依赖 (仅预计算)
-- Python 3.12+ (推荐使用 [uv](https://github.com/astral-sh/uv) 包管理器)
+- Python 3.12+ (使用 [uv](https://github.com/astral-sh/uv) 包管理器)
 - numpy
 - pyproj
 - tqdm
@@ -61,7 +61,7 @@ hsd_data_process/
    cargo build --release
    ```
 
-3. 安装Python依赖（可选，用于预计算）：
+3. 安装Python依赖：
    ```bash
    cd proj_precompute
    uv sync
